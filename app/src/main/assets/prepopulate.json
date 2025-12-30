@@ -1,0 +1,653 @@
+{
+  "genres": [
+    {
+      "genreId": 1,
+      "name": "Heavy Metal",
+      "description": "The foundation of all metal music, Heavy Metal emerged in the late 1960s and early 1970s, pioneered by bands like Black Sabbath, Led Zeppelin, and Deep Purple. Characterized by amplified distortion, extended guitar solos, emphatic beats, and overall loudness. The genre emphasizes power and masculinity, with lyrics often dealing with fantasy, mythology, and social commentary.",
+      "eraOfOrigin": "Late 1960s - Early 1970s",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 2,
+      "name": "Thrash Metal",
+      "description": "Born in the early 1980s, Thrash Metal is characterized by its fast tempo and aggression. The genre combined the intensity of hardcore punk with the complexity of NWOBHM. Features palm-muted guitar riffs, double bass drumming, and often politically or socially conscious lyrics. The 'Big Four' of Thrash (Metallica, Slayer, Megadeth, Anthrax) defined the genre.",
+      "eraOfOrigin": "Early 1980s",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 3,
+      "name": "Death Metal",
+      "description": "Emerging in the mid-1980s, Death Metal is characterized by heavily distorted guitars, tremolo picking, deep growling vocals, and complex song structures. Lyrics often focus on death, violence, and the macabre. Florida (Death, Morbid Angel) and Sweden (Entombed, Dismember) became the epicenters of the genre's development.",
+      "eraOfOrigin": "Mid-1980s",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 4,
+      "name": "Black Metal",
+      "description": "Black Metal emerged in the early 1980s with bands like Venom and Bathory, reaching its second wave in early 1990s Norway. Characterized by fast tempos, shrieking vocals, heavily distorted guitars, unconventional song structures, and lo-fi production. Thematically focuses on Satanism, paganism, nature, and anti-Christian sentiment. The Norwegian scene became infamous for church burnings and violence.",
+      "eraOfOrigin": "Early 1980s (First Wave), Early 1990s (Second Wave)",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 5,
+      "name": "Doom Metal",
+      "description": "Doom Metal emphasizes slower tempos, low-tuned guitars, and a 'heavier' or 'thicker' sound than other metal genres. Pioneered by Black Sabbath, the genre evokes a sense of despair, dread, and impending doom. Lyrics often deal with suffering, darkness, and melancholy. Epic Doom, Stoner Doom, and Funeral Doom are notable subgenres.",
+      "eraOfOrigin": "Early 1970s",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 6,
+      "name": "Power Metal",
+      "description": "Power Metal combines the heaviness of traditional metal with speed, melodic harmonies, and fantasy-themed lyrics. Characterized by high-pitched vocals, fast guitar riffs, and keyboards. The genre split into European (Helloween, Blind Guardian) and American (Manowar, Iced Earth) styles, with European Power Metal being more melodic and uplifting.",
+      "eraOfOrigin": "Mid-1980s",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 7,
+      "name": "Progressive Metal",
+      "description": "Progressive Metal blends the complex compositional approach of progressive rock with the power and aggression of metal. Features odd time signatures, extended song structures, and technical instrumental proficiency. Bands often incorporate influences from jazz, classical, and world music. Dream Theater and Queensrÿche are seminal acts.",
+      "eraOfOrigin": "Late 1980s",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 8,
+      "name": "Folk Metal",
+      "description": "Folk Metal combines heavy metal with traditional folk music, incorporating folk instruments like flutes, violins, bagpipes, and accordions. Lyrics often focus on paganism, nature, mythology, and folklore. The genre has strong regional variations, with Scandinavian, Celtic, and Eastern European styles being particularly prominent.",
+      "eraOfOrigin": "Early 1990s",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 9,
+      "name": "Gothic Metal",
+      "description": "Gothic Metal combines the darkness of gothic rock with heavy metal. Characterized by atmospheric keyboards, both male growls and female soprano vocals (beauty and the beast style), and melancholic themes. Bands often incorporate elements of doom metal and symphonic arrangements. Paradise Lost and Theatre of Tragedy pioneered the style.",
+      "eraOfOrigin": "Early 1990s",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 10,
+      "name": "Industrial Metal",
+      "description": "Industrial Metal fuses heavy metal with industrial music, incorporating synthesizers, sequencers, samplers, and drum machines. The sound is characterized by repetitive metal guitar riffs, sampling, synthesizer or sequencer lines, and distorted vocals. Ministry, Godflesh, and Nine Inch Nails defined the genre in the late 1980s and 1990s.",
+      "eraOfOrigin": "Late 1980s",
+      "parentGenreId": null
+    },
+    {
+      "genreId": 11,
+      "name": "Melodic Death Metal",
+      "description": "Melodic Death Metal (also known as 'Melodeath') combines the aggression and vocals of death metal with the melodic sensibility of NWOBHM. Pioneered in Gothenburg, Sweden by At The Gates, In Flames, and Dark Tranquillity. Features dual guitar harmonies, melodic riffing, and a cleaner production than traditional death metal.",
+      "eraOfOrigin": "Early 1990s",
+      "parentGenreId": 3
+    },
+    {
+      "genreId": 12,
+      "name": "Technical Death Metal",
+      "description": "Technical Death Metal emphasizes complex rhythms, riffs, and song structures. Features unconventional time signatures, atypical chord progressions, and virtuosic instrumental performance. Bands focus on musical proficiency and compositional complexity while maintaining death metal's brutality.",
+      "eraOfOrigin": "Late 1980s - Early 1990s",
+      "parentGenreId": 3
+    },
+    {
+      "genreId": 13,
+      "name": "Atmospheric Black Metal",
+      "description": "Atmospheric Black Metal emphasizes mood and atmosphere over aggression. Features longer songs, ambient passages, and often incorporates synthesizers and folk elements. The production is less raw than traditional black metal, creating an immersive, ethereal soundscape focused on nature and introspection.",
+      "eraOfOrigin": "Mid-1990s",
+      "parentGenreId": 4
+    },
+    {
+      "genreId": 14,
+      "name": "Blackened Death Metal",
+      "description": "Blackened Death Metal combines the intensity and complex song structures of death metal with the raw aggression, tremolo picking, and blast beats of black metal. Lyrical themes often blend death metal's gore with black metal's occultism and anti-religious sentiment.",
+      "eraOfOrigin": "Early 1990s",
+      "parentGenreId": 3
+    },
+    {
+      "genreId": 15,
+      "name": "Stoner Doom",
+      "description": "Stoner Doom combines doom metal's slow tempos and heavy riffs with psychedelic and blues rock influences. Characterized by fuzzy, overdriven guitar tones, extended jamming, and lyrics about marijuana culture. Emerged from the California desert rock scene with bands like Sleep and Electric Wizard.",
+      "eraOfOrigin": "Early 1990s",
+      "parentGenreId": 5
+    }
+  ],
+  "bands": [
+    {
+      "bandId": 1,
+      "name": "Black Sabbath",
+      "countryOfOrigin": "United Kingdom",
+      "status": "Split-up",
+      "bio": "Formed in Birmingham in 1968, Black Sabbath is widely regarded as the progenitor of heavy metal music. The original lineup of Ozzy Osbourne, Tony Iommi, Geezer Butler, and Bill Ward created a dark, heavy sound that defined the genre. Their self-titled debut album and 'Paranoid' established the blueprint for heavy metal."
+    },
+    {
+      "bandId": 2,
+      "name": "Iron Maiden",
+      "countryOfOrigin": "United Kingdom",
+      "status": "Active",
+      "bio": "Formed in 1975 by bassist Steve Harris, Iron Maiden became one of the most influential bands of the New Wave of British Heavy Metal. Known for their elaborate stage shows featuring mascot Eddie, complex guitar harmonies, and epic storytelling lyrics. With vocalist Bruce Dickinson, they achieved worldwide success."
+    },
+    {
+      "bandId": 3,
+      "name": "Judas Priest",
+      "countryOfOrigin": "United Kingdom",
+      "status": "Active",
+      "bio": "Formed in 1969, Judas Priest helped define the heavy metal aesthetic with leather, studs, and twin guitar harmonies. Rob Halford's powerful vocals and the band's aggressive sound influenced countless metal bands. They refined heavy metal's sound in the late 1970s and early 1980s with albums like 'British Steel' and 'Screaming for Vengeance'."
+    },
+    {
+      "bandId": 4,
+      "name": "Metallica",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1981, Metallica became the most commercially successful thrash metal band. James Hetfield and Lars Ulrich led the band through genre-defining albums 'Master of Puppets' and 'Ride the Lightning'. Their 1991 self-titled 'Black Album' brought metal to mainstream audiences worldwide."
+    },
+    {
+      "bandId": 5,
+      "name": "Slayer",
+      "countryOfOrigin": "USA",
+      "status": "Split-up",
+      "bio": "Formed in 1981, Slayer was the most extreme of the Big Four thrash bands. Their 1986 album 'Reign in Blood' is considered a thrash metal masterpiece. Known for their brutal speed, Satanic imagery, and controversial lyrics, they influenced death metal and extreme metal genres profoundly."
+    },
+    {
+      "bandId": 6,
+      "name": "Megadeth",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Founded in 1983 by former Metallica guitarist Dave Mustaine, Megadeth combined thrash metal intensity with technical proficiency. Albums like 'Rust in Peace' and 'Peace Sells... but Who's Buying?' showcased complex songwriting and politically charged lyrics. Mustaine's snarling vocals and virtuosic guitar work defined their sound."
+    },
+    {
+      "bandId": 7,
+      "name": "Anthrax",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1981, Anthrax brought a fun, energetic approach to thrash metal. They incorporated hardcore punk influences and were early adopters of rap-metal crossover. Known for their mosh-friendly anthems and collaborations with Public Enemy. Part of the Big Four of thrash metal."
+    },
+    {
+      "bandId": 8,
+      "name": "Testament",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1983 as Legacy, Testament became one of the most consistent thrash metal bands. Their debut 'The Legacy' and 'The New Order' established them as Bay Area thrash titans. Chuck Billy's powerful vocals and Eric Peterson's riffing have kept them relevant for decades."
+    },
+    {
+      "bandId": 9,
+      "name": "Death",
+      "countryOfOrigin": "USA",
+      "status": "Split-up",
+      "bio": "Founded by Chuck Schuldiner in 1983, Death is considered the pioneering death metal band. Their debut 'Scream Bloody Gore' established death metal's musical template. Schuldiner's progressive approach evolved the genre, culminating in the technical masterpiece 'The Sound of Perseverance'."
+    },
+    {
+      "bandId": 10,
+      "name": "Cannibal Corpse",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1988, Cannibal Corpse became death metal's most commercially successful band despite extremely graphic lyrical content. Their brutal, technical approach and Chris Barnes' then George 'Corpsegrinder' Fisher's guttural vocals defined death metal brutality. Albums like 'Tomb of the Mutilated' are genre classics."
+    },
+    {
+      "bandId": 11,
+      "name": "Morbid Angel",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1983, Morbid Angel brought technical proficiency and occult themes to death metal. Trey Azagthoth's innovative guitar work and David Vincent's vocals on albums like 'Altars of Madness' and 'Blessed Are the Sick' made them death metal legends from Tampa, Florida."
+    },
+    {
+      "bandId": 12,
+      "name": "Mayhem",
+      "countryOfOrigin": "Norway",
+      "status": "Active",
+      "bio": "Formed in 1984, Mayhem became infamous as pioneers of Norwegian black metal. Their history includes murder, suicide, and church burnings. Despite the chaos, albums like 'De Mysteriis Dom Sathanas' are black metal landmarks. Their ideology and aesthetic defined second-wave black metal."
+    },
+    {
+      "bandId": 13,
+      "name": "Darkthrone",
+      "countryOfOrigin": "Norway",
+      "status": "Active",
+      "bio": "Initially a death metal band, Darkthrone converted to black metal and released the seminal 'A Blaze in the Northern Sky' in 1992. The duo of Fenriz and Nocturno Culto embraced primitive production and rejected commercial success, becoming black metal purists and highly influential."
+    },
+    {
+      "bandId": 14,
+      "name": "Emperor",
+      "countryOfOrigin": "Norway",
+      "status": "Split-up",
+      "bio": "Formed in 1991, Emperor brought symphonic complexity to Norwegian black metal. Their debut 'In the Nightside Eclipse' combined raw black metal with orchestral keyboards. Ihsahn's compositional genius created epic, atmospheric black metal that influenced countless bands."
+    },
+    {
+      "bandId": 15,
+      "name": "Burzum",
+      "countryOfOrigin": "Norway",
+      "status": "On Hold",
+      "bio": "Varg Vikernes' one-man project Burzum created some of black metal's most influential and controversial music. Albums like 'Hvis lyset tar oss' pioneered atmospheric black metal. Vikernes' imprisonment for murder and church burning made Burzum notorious beyond the music."
+    },
+    {
+      "bandId": 16,
+      "name": "Candlemass",
+      "countryOfOrigin": "Sweden",
+      "status": "Active",
+      "bio": "Formed in 1984, Candlemass defined epic doom metal with their debut 'Epicus Doomicus Metallicus'. Messiah Marcolin's operatic vocals and the band's crushingly heavy, theatrical approach revitalized doom metal in the 1980s. They established the template for epic doom."
+    },
+    {
+      "bandId": 17,
+      "name": "Electric Wizard",
+      "countryOfOrigin": "United Kingdom",
+      "status": "Active",
+      "bio": "Formed in 1993, Electric Wizard took doom metal to its heaviest extreme. Their 2000 album 'Dopethrone' is a stoner doom masterpiece. Characterized by downtuned guitars, occult themes, and marijuana worship, they influenced the entire stoner/doom underground."
+    },
+    {
+      "bandId": 18,
+      "name": "Sleep",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1990, Sleep created stoner doom's blueprint with 'Holy Mountain'. Their single-song album 'Dopesmoker' (63 minutes of one riff) became legendary. Matt Pike's crushing riffs and the band's marijuana-obsessed lyrics defined stoner metal."
+    },
+    {
+      "bandId": 19,
+      "name": "Helloween",
+      "countryOfOrigin": "Germany",
+      "status": "Active",
+      "bio": "Formed in 1984, Helloween invented European power metal with the 'Keeper of the Seven Keys' albums. Their fast tempos, melodic twin guitars, and Kai Hansen/Michael Kiske's soaring vocals established power metal's template. They influenced generations of power and speed metal bands."
+    },
+    {
+      "bandId": 20,
+      "name": "Blind Guardian",
+      "countryOfOrigin": "Germany",
+      "status": "Active",
+      "bio": "Formed in 1984, Blind Guardian evolved from speed metal to symphonic power metal. Hansi Kürsch's layered vocal harmonies and fantasy literature lyrics (especially Tolkien) created epic, theatrical metal. Albums like 'Nightfall in Middle-Earth' are power metal landmarks."
+    },
+    {
+      "bandId": 21,
+      "name": "Stratovarius",
+      "countryOfOrigin": "Finland",
+      "status": "Active",
+      "bio": "Formed in 1984, Stratovarius brought neoclassical virtuosity to power metal. Timo Tolkki's guitar work and Jens Johansson's keyboards created a sophisticated, melodic sound. Their 'Visions' and 'Destiny' albums established them as European power metal giants."
+    },
+    {
+      "bandId": 22,
+      "name": "Dream Theater",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1985, Dream Theater became progressive metal's standard-bearers. Their 1992 album 'Images and Words' achieved mainstream success while maintaining complex composition and virtuosic musicianship. John Petrucci, Mike Portnoy, and Jordan Rudess pushed technical boundaries."
+    },
+    {
+      "bandId": 23,
+      "name": "Opeth",
+      "countryOfOrigin": "Sweden",
+      "status": "Active",
+      "bio": "Formed in 1989, Opeth blended death metal brutality with progressive rock sophistication. Mikael Åkerfeldt's shift between growls and clean vocals, combined with acoustic passages and complex structures, created a unique sound. 'Blackwater Park' is considered their masterpiece."
+    },
+    {
+      "bandId": 24,
+      "name": "Tool",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1990, Tool combined progressive metal with alternative metal and art rock. Maynard James Keenan's enigmatic lyrics, complex time signatures, and the band's visual artistry created an intellectual, psychedelic metal experience. 'Ænima' and 'Lateralus' are critically acclaimed masterworks."
+    },
+    {
+      "bandId": 25,
+      "name": "Finntroll",
+      "countryOfOrigin": "Finland",
+      "status": "Active",
+      "bio": "Formed in 1997, Finntroll pioneered 'humppa metal' - combining black metal with Finnish polka (humppa). Their troll-themed lyrics in Swedish and use of accordion created a unique, danceable extreme metal. They brought humor and folk elements to black metal aesthetics."
+    },
+    {
+      "bandId": 26,
+      "name": "Ensiferum",
+      "countryOfOrigin": "Finland",
+      "status": "Active",
+      "bio": "Formed in 1995, Ensiferum blended melodic death metal with Finnish folk music. Epic, battle-themed lyrics and incorporation of traditional instruments created stirring, heroic metal. Their self-titled debut and 'Iron' established them as folk metal leaders."
+    },
+    {
+      "bandId": 27,
+      "name": "Korpiklaani",
+      "countryOfOrigin": "Finland",
+      "status": "Active",
+      "bio": "Evolved from folk band Shaman in 2003, Korpiklaani plays upbeat folk metal celebrating Finnish culture and drinking. Their extensive use of violin, accordion, and jouhikko combined with metal created party-ready folk metal. Sing-along choruses about beer and nature define their sound."
+    },
+    {
+      "bandId": 28,
+      "name": "Paradise Lost",
+      "countryOfOrigin": "United Kingdom",
+      "status": "Active",
+      "bio": "Formed in 1988, Paradise Lost pioneered gothic doom metal. Their transition from death/doom to gothic metal with 'Shades of God' and 'Icon' influenced an entire genre. Dark atmosphere, melancholic melodies, and Nick Holmes' evolution from growls to clean vocals defined gothic metal."
+    },
+    {
+      "bandId": 29,
+      "name": "Type O Negative",
+      "countryOfOrigin": "USA",
+      "status": "Split-up",
+      "bio": "Formed in 1989, Type O Negative created dark, romantic gothic metal. Peter Steele's deep bass vocals, self-deprecating humor, and the band's crushing, slow sound garnered a cult following. 'Bloody Kisses' achieved unexpected mainstream success while maintaining their gloomy aesthetic."
+    },
+    {
+      "bandId": 30,
+      "name": "Within Temptation",
+      "countryOfOrigin": "Netherlands",
+      "status": "Active",
+      "bio": "Formed in 1996, Within Temptation evolved from gothic doom to symphonic metal. Sharon den Adel's operatic vocals and the band's orchestral approach created accessible, melodic gothic metal. 'Mother Earth' and 'The Silent Force' brought them international success."
+    },
+    {
+      "bandId": 31,
+      "name": "Ministry",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1981, Ministry pioneered industrial metal with 'The Land of Rape and Honey' and 'Psalm 69'. Al Jourgensen's vision combined metal guitars with industrial samples, drum machines, and aggressive political lyrics. They influenced Nine Inch Nails, Fear Factory, and industrial metal worldwide."
+    },
+    {
+      "bandId": 32,
+      "name": "Fear Factory",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1989, Fear Factory combined death metal aggression with industrial precision and cyberpunk themes. Burton C. Bell's contrast of growls and clean vocals, combined with Dino Cazares' machine-like guitar work, created the template for modern industrial metal. 'Demanufacture' is their masterpiece."
+    },
+    {
+      "bandId": 33,
+      "name": "Rammstein",
+      "countryOfOrigin": "Germany",
+      "status": "Active",
+      "bio": "Formed in 1994, Rammstein brought Neue Deutsche Härte to international prominence. Their theatrical live shows featuring pyrotechnics, Till Lindemann's bass vocals in German, and industrial metal sound created a unique, provocative spectacle. They became Germany's most successful metal export."
+    },
+    {
+      "bandId": 34,
+      "name": "At The Gates",
+      "countryOfOrigin": "Sweden",
+      "status": "Active",
+      "bio": "Formed in 1990, At The Gates revolutionized death metal with 'Slaughter of the Soul' (1995). This album defined the Gothenburg sound - melodic death metal with twin guitar harmonies, precise production, and Swedish melancholy. They influenced metalcore and modern melodic death metal profoundly."
+    },
+    {
+      "bandId": 35,
+      "name": "In Flames",
+      "countryOfOrigin": "Sweden",
+      "status": "Active",
+      "bio": "Formed in 1990, In Flames pioneered melodic death metal alongside At The Gates and Dark Tranquillity. 'The Jester Race' and 'Whoracle' established the Gothenburg sound. Later albums incorporated alternative metal elements, evolving their sound while maintaining melodic focus."
+    },
+    {
+      "bandId": 36,
+      "name": "Dark Tranquillity",
+      "countryOfOrigin": "Sweden",
+      "status": "Active",
+      "bio": "Formed in 1989, Dark Tranquillity completed the Gothenburg melodic death metal trinity. 'The Gallery' is considered a genre masterpiece. They maintained death metal aggression while incorporating keyboards and melody. Most consistent of the Gothenburg pioneers."
+    },
+    {
+      "bandId": 37,
+      "name": "Nile",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 1993, Nile brought technical death metal to Egyptian-themed extremes. Karl Sanders' intricate guitar work, Middle Eastern scales, and lyrics based on Egyptology created unique, brutal death metal. Albums like 'Annihilation of the Fornicators' and 'Black Seeds of Vengeance' showcase their technicality."
+    },
+    {
+      "bandId": 38,
+      "name": "Necrophagist",
+      "countryOfOrigin": "Germany",
+      "status": "On Hold",
+      "bio": "Formed in 1992, Necrophagist pushed technical death metal to virtuosic extremes. Muhammed Suiçmez's neoclassical guitar work and complex compositions on 'Epitaph' set new technical standards. Their perfectionism resulted in only two albums but immense influence."
+    },
+    {
+      "bandId": 39,
+      "name": "Obscura",
+      "countryOfOrigin": "Germany",
+      "status": "Active",
+      "bio": "Formed in 2002, Obscura modernized technical death metal with progressive elements. Steffen Kummerer's vision combined technical proficiency with atmospheric passages and jazz influences. 'Cosmogenesis' and 'Omnivium' showcase their sophisticated, cosmic approach to extreme metal."
+    },
+    {
+      "bandId": 40,
+      "name": "Alcest",
+      "countryOfOrigin": "France",
+      "status": "Active",
+      "bio": "Formed in 2000, Alcest pioneered blackgaze - blending black metal with shoegaze. Neige's vision created dreamy, ethereal soundscapes while maintaining black metal's tremolo guitars and blast beats. 'Souvenirs d'un autre monde' and 'Écailles de lune' are genre-defining."
+    },
+    {
+      "bandId": 41,
+      "name": "Wolves in the Throne Room",
+      "countryOfOrigin": "USA",
+      "status": "Active",
+      "bio": "Formed in 2002, Wolves in the Throne Room brought Cascadian black metal to prominence. Their nature-focused lyrics, atmospheric soundscapes, and environmentalist ethos created a spiritual, immersive black metal experience. 'Two Hunters' is their landmark album."
+    },
+    {
+      "bandId": 42,
+      "name": "Agalloch",
+      "countryOfOrigin": "USA",
+      "status": "Split-up",
+      "bio": "Formed in 1995, Agalloch blended black metal, folk, and post-rock into atmospheric metal masterpieces. 'The Mantle' combined acoustic passages, nature themes, and progressive song structures. Their Pacific Northwest melancholy created deeply emotive, contemplative metal."
+    },
+    {
+      "bandId": 43,
+      "name": "Behemoth",
+      "countryOfOrigin": "Poland",
+      "status": "Active",
+      "bio": "Formed in 1991, Behemoth evolved from raw black metal to blackened death metal titans. Nergal's charismatic leadership and the band's blasphemous imagery combined death metal brutality with black metal atmosphere. 'The Satanist' achieved critical and commercial success."
+    },
+    {
+      "bandId": 44,
+      "name": "Dissection",
+      "countryOfOrigin": "Sweden",
+      "status": "Split-up",
+      "bio": "Formed in 1989, Dissection perfected melodic black/death metal. 'Storm of the Light's Bane' is considered a masterpiece of Swedish extreme metal. Jon Nödtveidt's melodies combined black metal coldness with death metal precision before his tragic suicide."
+    },
+    {
+      "bandId": 45,
+      "name": "Belphegor",
+      "countryOfOrigin": "Austria",
+      "status": "Active",
+      "bio": "Formed in 1991, Belphegor plays blackened death metal with explicit Satanic and sexual themes. Their Austrian heritage brings a unique Central European darkness to extreme metal. Helmuth's vision created brutal, blasphemous music with albums like 'Lucifer Incestus'."
+    }
+  ],
+  "albums": [
+    {"albumId": 1, "title": "Black Sabbath", "releaseYear": 1970, "bandOwnerId": 1, "albumType": "Studio"},
+    {"albumId": 2, "title": "Paranoid", "releaseYear": 1970, "bandOwnerId": 1, "albumType": "Studio"},
+    {"albumId": 3, "title": "Master of Reality", "releaseYear": 1971, "bandOwnerId": 1, "albumType": "Studio"},
+    {"albumId": 4, "title": "Vol. 4", "releaseYear": 1972, "bandOwnerId": 1, "albumType": "Studio"},
+    {"albumId": 5, "title": "Sabbath Bloody Sabbath", "releaseYear": 1973, "bandOwnerId": 1, "albumType": "Studio"},
+    {"albumId": 6, "title": "The Number of the Beast", "releaseYear": 1982, "bandOwnerId": 2, "albumType": "Studio"},
+    {"albumId": 7, "title": "Powerslave", "releaseYear": 1984, "bandOwnerId": 2, "albumType": "Studio"},
+    {"albumId": 8, "title": "Somewhere in Time", "releaseYear": 1986, "bandOwnerId": 2, "albumType": "Studio"},
+    {"albumId": 9, "title": "Seventh Son of a Seventh Son", "releaseYear": 1988, "bandOwnerId": 2, "albumType": "Studio"},
+    {"albumId": 10, "title": "British Steel", "releaseYear": 1980, "bandOwnerId": 3, "albumType": "Studio"},
+    {"albumId": 11, "title": "Screaming for Vengeance", "releaseYear": 1982, "bandOwnerId": 3, "albumType": "Studio"},
+    {"albumId": 12, "title": "Defenders of the Faith", "releaseYear": 1984, "bandOwnerId": 3, "albumType": "Studio"},
+    {"albumId": 13, "title": "Painkiller", "releaseYear": 1990, "bandOwnerId": 3, "albumType": "Studio"},
+    {"albumId": 14, "title": "Kill 'Em All", "releaseYear": 1983, "bandOwnerId": 4, "albumType": "Studio"},
+    {"albumId": 15, "title": "Ride the Lightning", "releaseYear": 1984, "bandOwnerId": 4, "albumType": "Studio"},
+    {"albumId": 16, "title": "Master of Puppets", "releaseYear": 1986, "bandOwnerId": 4, "albumType": "Studio"},
+    {"albumId": 17, "title": "...And Justice for All", "releaseYear": 1988, "bandOwnerId": 4, "albumType": "Studio"},
+    {"albumId": 18, "title": "Metallica", "releaseYear": 1991, "bandOwnerId": 4, "albumType": "Studio"},
+    {"albumId": 19, "title": "Show No Mercy", "releaseYear": 1983, "bandOwnerId": 5, "albumType": "Studio"},
+    {"albumId": 20, "title": "Hell Awaits", "releaseYear": 1985, "bandOwnerId": 5, "albumType": "Studio"},
+    {"albumId": 21, "title": "Reign in Blood", "releaseYear": 1986, "bandOwnerId": 5, "albumType": "Studio"},
+    {"albumId": 22, "title": "South of Heaven", "releaseYear": 1988, "bandOwnerId": 5, "albumType": "Studio"},
+    {"albumId": 23, "title": "Seasons in the Abyss", "releaseYear": 1990, "bandOwnerId": 5, "albumType": "Studio"},
+    {"albumId": 24, "title": "Killing Is My Business... and Business Is Good!", "releaseYear": 1985, "bandOwnerId": 6, "albumType": "Studio"},
+    {"albumId": 25, "title": "Peace Sells... but Who's Buying?", "releaseYear": 1986, "bandOwnerId": 6, "albumType": "Studio"},
+    {"albumId": 26, "title": "Rust in Peace", "releaseYear": 1990, "bandOwnerId": 6, "albumType": "Studio"},
+    {"albumId": 27, "title": "Countdown to Extinction", "releaseYear": 1992, "bandOwnerId": 6, "albumType": "Studio"},
+    {"albumId": 28, "title": "Fistful of Metal", "releaseYear": 1984, "bandOwnerId": 7, "albumType": "Studio"},
+    {"albumId": 29, "title": "Among the Living", "releaseYear": 1987, "bandOwnerId": 7, "albumType": "Studio"},
+    {"albumId": 30, "title": "State of Euphoria", "releaseYear": 1988, "bandOwnerId": 7, "albumType": "Studio"},
+    {"albumId": 31, "title": "Persistence of Time", "releaseYear": 1990, "bandOwnerId": 7, "albumType": "Studio"},
+    {"albumId": 32, "title": "The Legacy", "releaseYear": 1987, "bandOwnerId": 8, "albumType": "Studio"},
+    {"albumId": 33, "title": "The New Order", "releaseYear": 1988, "bandOwnerId": 8, "albumType": "Studio"},
+    {"albumId": 34, "title": "Practice What You Preach", "releaseYear": 1989, "bandOwnerId": 8, "albumType": "Studio"},
+    {"albumId": 35, "title": "Scream Bloody Gore", "releaseYear": 1987, "bandOwnerId": 9, "albumType": "Studio"},
+    {"albumId": 36, "title": "Leprosy", "releaseYear": 1988, "bandOwnerId": 9, "albumType": "Studio"},
+    {"albumId": 37, "title": "Spiritual Healing", "releaseYear": 1990, "bandOwnerId": 9, "albumType": "Studio"},
+    {"albumId": 38, "title": "Human", "releaseYear": 1991, "bandOwnerId": 9, "albumType": "Studio"},
+    {"albumId": 39, "title": "The Sound of Perseverance", "releaseYear": 1998, "bandOwnerId": 9, "albumType": "Studio"},
+    {"albumId": 40, "title": "Eaten Back to Life", "releaseYear": 1990, "bandOwnerId": 10, "albumType": "Studio"},
+    {"albumId": 41, "title": "Butchered at Birth", "releaseYear": 1991, "bandOwnerId": 10, "albumType": "Studio"},
+    {"albumId": 42, "title": "Tomb of the Mutilated", "releaseYear": 1992, "bandOwnerId": 10, "albumType": "Studio"},
+    {"albumId": 43, "title": "The Bleeding", "releaseYear": 1994, "bandOwnerId": 10, "albumType": "Studio"},
+    {"albumId": 44, "title": "Altars of Madness", "releaseYear": 1989, "bandOwnerId": 11, "albumType": "Studio"},
+    {"albumId": 45, "title": "Blessed Are the Sick", "releaseYear": 1991, "bandOwnerId": 11, "albumType": "Studio"},
+    {"albumId": 46, "title": "Covenant", "releaseYear": 1993, "bandOwnerId": 11, "albumType": "Studio"},
+    {"albumId": 47, "title": "Desolation of Eden", "releaseYear": 1987, "bandOwnerId": 12, "albumType": "EP"},
+    {"albumId": 48, "title": "De Mysteriis Dom Sathanas", "releaseYear": 1994, "bandOwnerId": 12, "albumType": "Studio"},
+    {"albumId": 49, "title": "Grand Declaration of War", "releaseYear": 2000, "bandOwnerId": 12, "albumType": "Studio"},
+    {"albumId": 50, "title": "A Blaze in the Northern Sky", "releaseYear": 1992, "bandOwnerId": 13, "albumType": "Studio"},
+    {"albumId": 51, "title": "Under a Funeral Moon", "releaseYear": 1993, "bandOwnerId": 13, "albumType": "Studio"},
+    {"albumId": 52, "title": "Transilvanian Hunger", "releaseYear": 1994, "bandOwnerId": 13, "albumType": "Studio"},
+    {"albumId": 53, "title": "In the Nightside Eclipse", "releaseYear": 1994, "bandOwnerId": 14, "albumType": "Studio"},
+    {"albumId": 54, "title": "Anthems to the Welkin at Dusk", "releaseYear": 1997, "bandOwnerId": 14, "albumType": "Studio"},
+    {"albumId": 55, "title": "Prometheus: The Discipline of Fire & Demise", "releaseYear": 2001, "bandOwnerId": 14, "albumType": "Studio"},
+    {"albumId": 56, "title": "Hvis lyset tar oss", "releaseYear": 1994, "bandOwnerId": 15, "albumType": "Studio"},
+    {"albumId": 57, "title": "Filosofem", "releaseYear": 1996, "bandOwnerId": 15, "albumType": "Studio"},
+    {"albumId": 58, "title": "Belus", "releaseYear": 2010, "bandOwnerId": 15, "albumType": "Studio"},
+    {"albumId": 59, "title": "Epicus Doomicus Metallicus", "releaseYear": 1986, "bandOwnerId": 16, "albumType": "Studio"},
+    {"albumId": 60, "title": "Nightfall", "releaseYear": 1987, "bandOwnerId": 16, "albumType": "Studio"},
+    {"albumId": 61, "title": "Ancient Dreams", "releaseYear": 1988, "bandOwnerId": 16, "albumType": "Studio"},
+    {"albumId": 62, "title": "Come My Fanatics...", "releaseYear": 1997, "bandOwnerId": 17, "albumType": "Studio"},
+    {"albumId": 63, "title": "Dopethrone", "releaseYear": 2000, "bandOwnerId": 17, "albumType": "Studio"},
+    {"albumId": 64, "title": "We Live", "releaseYear": 2004, "bandOwnerId": 17, "albumType": "Live"},
+    {"albumId": 65, "title": "Sleep's Holy Mountain", "releaseYear": 1992, "bandOwnerId": 18, "albumType": "Studio"},
+    {"albumId": 66, "title": "Dopesmoker", "releaseYear": 2003, "bandOwnerId": 18, "albumType": "Studio"},
+    {"albumId": 67, "title": "The Sciences", "releaseYear": 2018, "bandOwnerId": 18, "albumType": "Studio"},
+    {"albumId": 68, "title": "Walls of Jericho", "releaseYear": 1985, "bandOwnerId": 19, "albumType": "Studio"},
+    {"albumId": 69, "title": "Keeper of the Seven Keys Part I", "releaseYear": 1987, "bandOwnerId": 19, "albumType": "Studio"},
+    {"albumId": 70, "title": "Keeper of the Seven Keys Part II", "releaseYear": 1988, "bandOwnerId": 19, "albumType": "Studio"},
+    {"albumId": 71, "title": "Battalions of Fear", "releaseYear": 1988, "bandOwnerId": 20, "albumType": "Studio"},
+    {"albumId": 72, "title": "Somewhere Far Beyond", "releaseYear": 1992, "bandOwnerId": 20, "albumType": "Studio"},
+    {"albumId": 73, "title": "Imaginations from the Other Side", "releaseYear": 1995, "bandOwnerId": 20, "albumType": "Studio"},
+    {"albumId": 74, "title": "Nightfall in Middle-Earth", "releaseYear": 1998, "bandOwnerId": 20, "albumType": "Studio"},
+    {"albumId": 75, "title": "Fright Night", "releaseYear": 1989, "bandOwnerId": 21, "albumType": "Studio"},
+    {"albumId": 76, "title": "Visions", "releaseYear": 1997, "bandOwnerId": 21, "albumType": "Studio"},
+    {"albumId": 77, "title": "Destiny", "releaseYear": 1998, "bandOwnerId": 21, "albumType": "Studio"},
+    {"albumId": 78, "title": "When Dream and Day Unite", "releaseYear": 1989, "bandOwnerId": 22, "albumType": "Studio"},
+    {"albumId": 79, "title": "Images and Words", "releaseYear": 1992, "bandOwnerId": 22, "albumType": "Studio"},
+    {"albumId": 80, "title": "Awake", "releaseYear": 1994, "bandOwnerId": 22, "albumType": "Studio"},
+    {"albumId": 81, "title": "Metropolis Pt. 2: Scenes from a Memory", "releaseYear": 1999, "bandOwnerId": 22, "albumType": "Studio"},
+    {"albumId": 82, "title": "Orchid", "releaseYear": 1995, "bandOwnerId": 23, "albumType": "Studio"},
+    {"albumId": 83, "title": "Morningrise", "releaseYear": 1996, "bandOwnerId": 23, "albumType": "Studio"},
+    {"albumId": 84, "title": "Blackwater Park", "releaseYear": 2001, "bandOwnerId": 23, "albumType": "Studio"},
+    {"albumId": 85, "title": "Deliverance", "releaseYear": 2002, "bandOwnerId": 23, "albumType": "Studio"},
+    {"albumId": 86, "title": "Undertow", "releaseYear": 1993, "bandOwnerId": 24, "albumType": "Studio"},
+    {"albumId": 87, "title": "Ænima", "releaseYear": 1996, "bandOwnerId": 24, "albumType": "Studio"},
+    {"albumId": 88, "title": "Lateralus", "releaseYear": 2001, "bandOwnerId": 24, "albumType": "Studio"},
+    {"albumId": 89, "title": "10,000 Days", "releaseYear": 2006, "bandOwnerId": 24, "albumType": "Studio"},
+    {"albumId": 90, "title": "Midnattens widunder", "releaseYear": 1999, "bandOwnerId": 25, "albumType": "Studio"},
+    {"albumId": 91, "title": "Jaktens tid", "releaseYear": 2001, "bandOwnerId": 25, "albumType": "Studio"},
+    {"albumId": 92, "title": "Nattfödd", "releaseYear": 2004, "bandOwnerId": 25, "albumType": "Studio"},
+    {"albumId": 93, "title": "Ensiferum", "releaseYear": 2001, "bandOwnerId": 26, "albumType": "Studio"},
+    {"albumId": 94, "title": "Iron", "releaseYear": 2004, "bandOwnerId": 26, "albumType": "Studio"},
+    {"albumId": 95, "title": "Victory Songs", "releaseYear": 2007, "bandOwnerId": 26, "albumType": "Studio"},
+    {"albumId": 96, "title": "Spirit of the Forest", "releaseYear": 2003, "bandOwnerId": 27, "albumType": "Studio"},
+    {"albumId": 97, "title": "Voice of Wilderness", "releaseYear": 2005, "bandOwnerId": 27, "albumType": "Studio"},
+    {"albumId": 98, "title": "Tales Along This Road", "releaseYear": 2006, "bandOwnerId": 27, "albumType": "Studio"},
+    {"albumId": 99, "title": "Lost Paradise", "releaseYear": 1990, "bandOwnerId": 28, "albumType": "Studio"},
+    {"albumId": 100, "title": "Gothic", "releaseYear": 1991, "bandOwnerId": 28, "albumType": "Studio"},
+    {"albumId": 101, "title": "Shades of God", "releaseYear": 1992, "bandOwnerId": 28, "albumType": "Studio"},
+    {"albumId": 102, "title": "Icon", "releaseYear": 1993, "bandOwnerId": 28, "albumType": "Studio"},
+    {"albumId": 103, "title": "Slow, Deep and Hard", "releaseYear": 1991, "bandOwnerId": 29, "albumType": "Studio"},
+    {"albumId": 104, "title": "Bloody Kisses", "releaseYear": 1993, "bandOwnerId": 29, "albumType": "Studio"},
+    {"albumId": 105, "title": "October Rust", "releaseYear": 1996, "bandOwnerId": 29, "albumType": "Studio"},
+    {"albumId": 106, "title": "Enter", "releaseYear": 1997, "bandOwnerId": 30, "albumType": "EP"},
+    {"albumId": 107, "title": "Mother Earth", "releaseYear": 2000, "bandOwnerId": 30, "albumType": "Studio"},
+    {"albumId": 108, "title": "The Silent Force", "releaseYear": 2004, "bandOwnerId": 30, "albumType": "Studio"},
+    {"albumId": 109, "title": "The Land of Rape and Honey", "releaseYear": 1988, "bandOwnerId": 31, "albumType": "Studio"},
+    {"albumId": 110, "title": "The Mind Is a Terrible Thing to Taste", "releaseYear": 1989, "bandOwnerId": 31, "albumType": "Studio"},
+    {"albumId": 111, "title": "Psalm 69", "releaseYear": 1992, "bandOwnerId": 31, "albumType": "Studio"},
+    {"albumId": 112, "title": "Soul of a New Machine", "releaseYear": 1992, "bandOwnerId": 32, "albumType": "Studio"},
+    {"albumId": 113, "title": "Demanufacture", "releaseYear": 1995, "bandOwnerId": 32, "albumType": "Studio"},
+    {"albumId": 114, "title": "Obsolete", "releaseYear": 1998, "bandOwnerId": 32, "albumType": "Studio"},
+    {"albumId": 115, "title": "Herzeleid", "releaseYear": 1995, "bandOwnerId": 33, "albumType": "Studio"},
+    {"albumId": 116, "title": "Sehnsucht", "releaseYear": 1997, "bandOwnerId": 33, "albumType": "Studio"},
+    {"albumId": 117, "title": "Mutter", "releaseYear": 2001, "bandOwnerId": 33, "albumType": "Studio"},
+    {"albumId": 118, "title": "The Red in the Sky Is Ours", "releaseYear": 1992, "bandOwnerId": 34, "albumType": "Studio"},
+    {"albumId": 119, "title": "Terminal Spirit Disease", "releaseYear": 1994, "bandOwnerId": 34, "albumType": "EP"},
+    {"albumId": 120, "title": "Slaughter of the Soul", "releaseYear": 1995, "bandOwnerId": 34, "albumType": "Studio"},
+    {"albumId": 121, "title": "Lunar Strain", "releaseYear": 1994, "bandOwnerId": 35, "albumType": "Studio"},
+    {"albumId": 122, "title": "The Jester Race", "releaseYear": 1996, "bandOwnerId": 35, "albumType": "Studio"},
+    {"albumId": 123, "title": "Whoracle", "releaseYear": 1997, "bandOwnerId": 35, "albumType": "Studio"},
+    {"albumId": 124, "title": "Colony", "releaseYear": 1999, "bandOwnerId": 35, "albumType": "Studio"},
+    {"albumId": 125, "title": "Skydancer", "releaseYear": 1993, "bandOwnerId": 36, "albumType": "Studio"},
+    {"albumId": 126, "title": "The Gallery", "releaseYear": 1995, "bandOwnerId": 36, "albumType": "Studio"},
+    {"albumId": 127, "title": "The Mind's I", "releaseYear": 1997, "bandOwnerId": 36, "albumType": "Studio"},
+    {"albumId": 128, "title": "Projector", "releaseYear": 1999, "bandOwnerId": 36, "albumType": "Studio"},
+    {"albumId": 129, "title": "Amongst the Catacombs of Nephren-Ka", "releaseYear": 1998, "bandOwnerId": 37, "albumType": "Studio"},
+    {"albumId": 130, "title": "Black Seeds of Vengeance", "releaseYear": 2000, "bandOwnerId": 37, "albumType": "Studio"},
+    {"albumId": 131, "title": "In Their Darkened Shrines", "releaseYear": 2002, "bandOwnerId": 37, "albumType": "Studio"},
+    {"albumId": 132, "title": "Onset of Putrefaction", "releaseYear": 1999, "bandOwnerId": 38, "albumType": "Studio"},
+    {"albumId": 133, "title": "Epitaph", "releaseYear": 2004, "bandOwnerId": 38, "albumType": "Studio"},
+    {"albumId": 134, "title": "Cosmogenesis", "releaseYear": 2009, "bandOwnerId": 39, "albumType": "Studio"},
+    {"albumId": 135, "title": "Omnivium", "releaseYear": 2011, "bandOwnerId": 39, "albumType": "Studio"},
+    {"albumId": 136, "title": "Akróasis", "releaseYear": 2016, "bandOwnerId": 39, "albumType": "Studio"},
+    {"albumId": 137, "title": "Souvenirs d'un autre monde", "releaseYear": 2007, "bandOwnerId": 40, "albumType": "Studio"},
+    {"albumId": 138, "title": "Écailles de lune", "releaseYear": 2010, "bandOwnerId": 40, "albumType": "Studio"},
+    {"albumId": 139, "title": "Les Voyages de l'Âme", "releaseYear": 2012, "bandOwnerId": 40, "albumType": "Studio"},
+    {"albumId": 140, "title": "Diadem of 12 Stars", "releaseYear": 2006, "bandOwnerId": 41, "albumType": "Studio"},
+    {"albumId": 141, "title": "Two Hunters", "releaseYear": 2007, "bandOwnerId": 41, "albumType": "Studio"},
+    {"albumId": 142, "title": "Celestial Lineage", "releaseYear": 2011, "bandOwnerId": 41, "albumType": "Studio"},
+    {"albumId": 143, "title": "Pale Folklore", "releaseYear": 1999, "bandOwnerId": 42, "albumType": "Studio"},
+    {"albumId": 144, "title": "The Mantle", "releaseYear": 2002, "bandOwnerId": 42, "albumType": "Studio"},
+    {"albumId": 145, "title": "Ashes Against the Grain", "releaseYear": 2006, "bandOwnerId": 42, "albumType": "Studio"},
+    {"albumId": 146, "title": "Sventevith", "releaseYear": 1995, "bandOwnerId": 43, "albumType": "Studio"},
+    {"albumId": 147, "title": "Demigod", "releaseYear": 2004, "bandOwnerId": 43, "albumType": "Studio"},
+    {"albumId": 148, "title": "The Satanist", "releaseYear": 2014, "bandOwnerId": 43, "albumType": "Studio"},
+    {"albumId": 149, "title": "The Somberlain", "releaseYear": 1993, "bandOwnerId": 44, "albumType": "Studio"},
+    {"albumId": 150, "title": "Storm of the Light's Bane", "releaseYear": 1995, "bandOwnerId": 44, "albumType": "Studio"},
+    {"albumId": 151, "title": "Reinkaos", "releaseYear": 2006, "bandOwnerId": 44, "albumType": "Studio"},
+    {"albumId": 152, "title": "Pestapokalypse VI", "releaseYear": 2006, "bandOwnerId": 45, "albumType": "Studio"},
+    {"albumId": 153, "title": "Bondage Goat Zombie", "releaseYear": 2008, "bandOwnerId": 45, "albumType": "Studio"},
+    {"albumId": 154, "title": "Blood Magick Necromance", "releaseYear": 2011, "bandOwnerId": 45, "albumType": "Studio"}
+  ],
+  "band_genre_refs": [
+    {"bandId": 1, "genreId": 1},
+    {"bandId": 1, "genreId": 5},
+    {"bandId": 2, "genreId": 1},
+    {"bandId": 3, "genreId": 1},
+    {"bandId": 4, "genreId": 2},
+    {"bandId": 5, "genreId": 2},
+    {"bandId": 6, "genreId": 2},
+    {"bandId": 7, "genreId": 2},
+    {"bandId": 8, "genreId": 2},
+    {"bandId": 9, "genreId": 3},
+    {"bandId": 10, "genreId": 3},
+    {"bandId": 11, "genreId": 3},
+    {"bandId": 12, "genreId": 4},
+    {"bandId": 13, "genreId": 4},
+    {"bandId": 14, "genreId": 4},
+    {"bandId": 15, "genreId": 4},
+    {"bandId": 15, "genreId": 13},
+    {"bandId": 16, "genreId": 5},
+    {"bandId": 17, "genreId": 5},
+    {"bandId": 17, "genreId": 15},
+    {"bandId": 18, "genreId": 5},
+    {"bandId": 18, "genreId": 15},
+    {"bandId": 19, "genreId": 6},
+    {"bandId": 20, "genreId": 6},
+    {"bandId": 21, "genreId": 6},
+    {"bandId": 22, "genreId": 7},
+    {"bandId": 23, "genreId": 7},
+    {"bandId": 23, "genreId": 3},
+    {"bandId": 24, "genreId": 7},
+    {"bandId": 25, "genreId": 8},
+    {"bandId": 25, "genreId": 4},
+    {"bandId": 26, "genreId": 8},
+    {"bandId": 26, "genreId": 11},
+    {"bandId": 27, "genreId": 8},
+    {"bandId": 28, "genreId": 9},
+    {"bandId": 28, "genreId": 5},
+    {"bandId": 29, "genreId": 9},
+    {"bandId": 30, "genreId": 9},
+    {"bandId": 31, "genreId": 10},
+    {"bandId": 32, "genreId": 10},
+    {"bandId": 32, "genreId": 3},
+    {"bandId": 33, "genreId": 10},
+    {"bandId": 34, "genreId": 11},
+    {"bandId": 34, "genreId": 3},
+    {"bandId": 35, "genreId": 11},
+    {"bandId": 35, "genreId": 3},
+    {"bandId": 36, "genreId": 11},
+    {"bandId": 36, "genreId": 3},
+    {"bandId": 37, "genreId": 12},
+    {"bandId": 37, "genreId": 3},
+    {"bandId": 38, "genreId": 12},
+    {"bandId": 38, "genreId": 3},
+    {"bandId": 39, "genreId": 12},
+    {"bandId": 39, "genreId": 3},
+    {"bandId": 40, "genreId": 13},
+    {"bandId": 40, "genreId": 4},
+    {"bandId": 41, "genreId": 13},
+    {"bandId": 41, "genreId": 4},
+    {"bandId": 42, "genreId": 13},
+    {"bandId": 42, "genreId": 4},
+    {"bandId": 43, "genreId": 14},
+    {"bandId": 43, "genreId": 3},
+    {"bandId": 43, "genreId": 4},
+    {"bandId": 44, "genreId": 14},
+    {"bandId": 44, "genreId": 3},
+    {"bandId": 44, "genreId": 4},
+    {"bandId": 45, "genreId": 14},
+    {"bandId": 45, "genreId": 3},
+    {"bandId": 45, "genreId": 4}
+  ]
+}

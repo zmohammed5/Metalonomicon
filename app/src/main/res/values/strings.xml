@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Metalonomicon</string>
+
+    <!-- Navigation -->
+    <string name="nav_genres">Grimoire</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_analytics">Analytics</string>
+
+    <!-- Genres Screen -->
+    <string name="genres_title">The Grimoire of Genres</string>
+    <string name="subgenres_header">Subgenres</string>
+    <string name="bands_in_genre">Bands</string>
+
+    <!-- Band Detail -->
+    <string name="band_details">Band Details</string>
+    <string name="discography">Discography</string>
+    <string name="genres_label">Genres:</string>
+    <string name="country_label">Country:</string>
+    <string name="status_label">Status:</string>
+    <string name="biography_label">Biography</string>
+
+    <!-- Album Detail -->
+    <string name="album_details">Album Details</string>
+    <string name="release_year_label">Released:</string>
+    <string name="album_type_label">Type:</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search bands, albums, genres...</string>
+    <string name="search_results_bands">Bands</string>
+    <string name="search_results_genres">Genres</string>
+    <string name="search_results_albums">Albums</string>
+    <string name="no_results">No results found</string>
+
+    <!-- Analytics -->
+    <string name="analytics_title">The Archives</string>
+    <string name="database_stats">Database Statistics</string>
+    <string name="total_genres">Total Genres:</string>
+    <string name="total_bands">Total Bands:</string>
+    <string name="total_albums">Total Albums:</string>
+    <string name="bands_by_country">Bands by Country</string>
+    <string name="albums_by_decade">Albums by Decade</string>
+    <string name="genre_distribution">Genre Distribution</string>
+</resources>
